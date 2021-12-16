@@ -94,7 +94,7 @@ class Rendezvous
         ssl_context.min_version = :TLS1
         ssl_context.max_version = :TLS1_2
       else
-        ssl_context.ssl_version = :TLSv1
+        ssl_context.ssl_version = :TLSv1_2
       end
 
       if @ssl_verify_peer
